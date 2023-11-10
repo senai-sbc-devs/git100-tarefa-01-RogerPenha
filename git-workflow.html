@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+    <title>Git Workflow</title>
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <!-- Título principal -->
+        <h1>Git Workflow</h1>
+        <!-- Imagem do logotipo do GitHub -->
+        <img class="GitHub" src="github.png" alt="logo GitHub">
+        <!-- Descrição do conteúdo da página -->
+        <p>Explorando visualmente o ciclo de trabalho do Git e GitHub.</p>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <h1>Git Workflow: O que é na prática?</h1>
+        <p>
+            O termo "Git workflow" refere-se ao conjunto de práticas e processos que uma equipe ou indivíduo segue
+            ao usar o sistema de controle de versão Git para gerenciar e colaborar em projetos de software. O Git 
+            é uma ferramenta de controle de versão distribuída amplamente utilizada, e seu workflow proporciona uma
+            estrutura para organizar como as alterações são propostas, revisadas, aceitas e integradas em um projeto.
+        </p>
+        <!-- Seção "Clone" -->
+        <section id="clone">
+            <!-- Título da seção -->
+            <h2 class="title">Clone</h2>
+            <!-- Descrição da funcionalidade -->
+            <p>Clona um repositório remoto para o seu computador.</p>
+            <!-- Exemplo de comando Git -->
+            <code>git clone [URL]</code>
+        </section>
+
+        <!-- Seção "Branch" -->
+        <section id="branch">
+            <!-- Título da seção -->
+            <h2 class="title">Branch</h2>
+            <!-- Descrição da funcionalidade -->
+            <p>Cria e gerencia branches para desenvolver novos recursos.</p>
+            <!-- Exemplo de comando Git -->
+            <code>git branch [nome_da_branch]</code>
+        </section>
+
+        <!-- Seção "Commit" -->
+        <section id="commit">
+            <!-- Título da seção -->
+            <h2 class="title">Commit</h2>
+            <!-- Descrição da funcionalidade -->
+            <p>Registra as alterações <b>definitivamente</b> no repositório.</p>
+            <!-- Exemplo de comando Git -->
+            <code>git commit -m "Mensagem do commit"</code>
+        </section>
+
+        <!-- Seção "Merge" -->
+        <section id="merge">
+            <!-- Título da seção -->
+            <h2 class="title">Merge</h2>
+            <!-- Descrição da funcionalidade -->
+            <p>Integra as alterações de uma branch ao branch principal.</p>
+            <!-- Exemplo de comando Git -->
+            <code>git merge [nome_do_branch]</code>
+        </section>
+
+        <!-- Seção "Pull Request" -->
+        <section id="pull-request">
+            <!-- Título da seção -->
+            <h2 class="title">Pull Request</h2>
+            <!-- Descrição da funcionalidade -->
+            <p>Solicita a integração das suas alterações ao branch principal.</p>
+            <!-- Exemplo de comando Git -->
+            <code>git pull-request</code>
+        </section>
+    </main>
+    
+    <!-- Rodapé da página -->
+    <div class="footer">
+        <!-- Direitos autorais e link para o perfil do GitHub -->
+        &copy; 2023 <a target="_blank" href="https://github.com/LucasManoLegal">LucasManoLegal</a> | Todos os direitos reservados.
+    </div>
+</body>
+</html>
